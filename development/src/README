@@ -1,4 +1,4 @@
-This website contains six compoenents. Each component is described 
+This website contains six components. Each component is described 
 (in hierarchal order) below:
 
 1. App
@@ -8,9 +8,9 @@ the component FilteredList
 2. FilteredList
 - this component contains the primary renderer that returns the majority of what you see on screen:
 the navbar, all the pieces as created by the DisplayList component, the list of pieces in the aggregator (TimeCountDisplay)
-as well as the sum total calculated by the aggregator (TimeCount). The DisplayList Component is rendered 
+as well as the sum total calculated by the aggregator (TimeCount). The DisplayList component is rendered 
 here after all the filter and sort methods that are in FilteredList are applied. FilteredList also
-contains a state for each filter/sort criterion that updates everytime a filter/sort criterion is selected in the 
+contains a state for each filter/sort criterion that updates everymtime a filter/sort criterion is selected in the 
 navbar dropdown menu. There is also a "total" state for the aggregator that totals the amount of time spent
 on the pieces that are selected (the aggregator will be described in greater depth below.)
 
@@ -19,13 +19,13 @@ on the pieces that are selected (the aggregator will be described in greater dep
 by utilizing the map function.
 
 THE AGGREGATOR COMPONENTS
-the components described below are necesitated by the aggregator:
+the components described below are necessitated by the aggregator:
 
 The aggregator aggregates the total amount of time spent on every piece that is selected to be in the aggregator.
 
 4.TimeAdder
-- This component renders a button that can be pressed to add or remove an piece from the aggregator. It contains the state isPressed 
-that stores whether or not the button has been pressed. This state is updated everytime the user clicks on the button. The time value 
+- This component renders a button that can be pressed to add or remove its respective piece from the aggregator. It contains the state isPressed 
+that stores whether or not the button has been pressed. This state is updated every time the user clicks on the button. The time value 
 associated with each TimeAdder button is passed down from DisplayList and passed to the TimeCount.
 
 5. TimeCount
