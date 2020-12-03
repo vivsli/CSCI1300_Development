@@ -5,7 +5,7 @@ export default class TimeCount extends Component {
     render() {
         return (
             <div>
-                <h4>Total Time: {this.state.totalTime}</h4>
+                <h4>Total Time: {this.state.totalTime} hours</h4>
             </div>
         )
 
